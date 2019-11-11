@@ -1,8 +1,8 @@
-# !/bin/bash
+#!/bin/bash
 # numbers.sh
 # Christopher Chang
 
-echo "Enter positive Number:"
+echo "Enter positive number:"
 read INPUT
 
 N=1
