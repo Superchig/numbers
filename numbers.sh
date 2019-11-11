@@ -8,12 +8,11 @@ read INPUT
 N=1
 while [ "$N" -le "$INPUT" ]
 do
-	echo -n $N
 	if [ $((N%2)) -eq 0 ]
 	then
-		echo " Even"
+		echo "$N Even"
 	else
-		echo " Odd"
+		echo "$N Odd"
 	fi
 	N=$((N+1))
 done
