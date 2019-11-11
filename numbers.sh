@@ -2,7 +2,7 @@
 # numbers.sh
 # Christopher Chang
 
-echo -n "Enter positive Number:"
+echo "Enter positive Number:"
 read INPUT
 
 N=1
